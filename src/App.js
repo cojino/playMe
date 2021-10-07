@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import MyTodo from "./components/UI/MyTodo";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <MyTodo />
+    </div>
+  );
 }
 
 export default App;
